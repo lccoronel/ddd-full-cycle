@@ -1,7 +1,7 @@
 import { Address } from "../../../entity/Address";
 import { Customer } from "../../../entity/Customer";
 import { EventDispatcher } from "../../@shared/event-dispatcher";
-import { CustomerChangedAddressEvent } from "../customer-changed-address";
+import { CustomerChangedAddressEvent } from "../customer-changed-address.event";
 import { SendEmailWhenCustomerChangedAddressHandler } from "./send-email-when-customer-changed-address.handler";
 
 describe("Customer handler tests", () => {

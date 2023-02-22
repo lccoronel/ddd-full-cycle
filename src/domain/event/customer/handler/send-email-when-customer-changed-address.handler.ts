@@ -1,5 +1,5 @@
 import { EventHandlerInterface } from "../../@shared/event-handler.interface";
-import { CustomerChangedAddressEvent } from "../customer-changed-address";
+import { CustomerChangedAddressEvent } from "../customer-changed-address.event";
 
 export class SendEmailWhenCustomerChangedAddressHandler implements EventHandlerInterface<CustomerChangedAddressEvent> {
     handle(event: CustomerChangedAddressEvent): void {
