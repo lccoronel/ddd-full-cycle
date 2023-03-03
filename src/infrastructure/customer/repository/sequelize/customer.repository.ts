@@ -1,7 +1,8 @@
-import { Address } from "../../domain/customer/value-object/Address";
-import CustomerRepositoryInterface from "../../domain/customer/respository/customer-repository.interface";
-import CustomerModel from "../db/sequelize/model/customer.model";
-import { Customer } from "../../domain/customer/entity/Customer";
+import { Customer } from "../../../../domain/customer/entity/Customer";
+import CustomerRepositoryInterface from "../../../../domain/customer/respository/customer-repository.interface";
+import { Address } from "../../../../domain/customer/value-object/Address";
+import CustomerModel from "./customer.model";
+
 
 export default class CustomerRepository implements CustomerRepositoryInterface {
     async create(entity: Customer): Promise<void> {
