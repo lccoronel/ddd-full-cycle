@@ -1,6 +1,6 @@
-import { Address } from "../../../entity/Address";
-import { Customer } from "../../../entity/Customer";
-import { EventDispatcher } from "../../@shared/event-dispatcher";
+import { EventDispatcher } from "../../../@shared/event/event-dispatcher";
+import { Customer } from "../../entity/Customer";
+import { Address } from "../../value-object/Address";
 import { CustomerCreatedEvent } from "../customer-created.event";
 import { SendEmailWhenCustomerIsCreatedHandler } from "./send-email-when-customer-is-created.handler";
 import { SendEmailWhenCustomerIsCreatedHandler2 } from "./send-email-when-customer-is-created2.handler";

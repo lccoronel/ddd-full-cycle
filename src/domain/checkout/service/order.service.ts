@@ -1,6 +1,6 @@
 import { v4 as uuid } from 'uuid'
+import { Customer } from '../../customer/entity/Customer';
 
-import { Customer } from "../entity/Customer";
 import { Order } from "../entity/Order";
 import { OrderItem } from "../entity/OrderItem";
 
